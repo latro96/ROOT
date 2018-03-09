@@ -1,7 +1,20 @@
 package helpCampos;
 
+<<<<<<< HEAD
 import java.util.Map;
 
+=======
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.json.simple.JSONArray;
+>>>>>>> branch 'master' of https://github.com/latro96/ROOT.git
 import org.json.simple.JSONObject;
 
 import funciones.Funciones;

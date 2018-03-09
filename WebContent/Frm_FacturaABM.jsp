@@ -306,6 +306,5 @@
 	      	});
         }
 
-	</script>
-	
+	</script>	
 </div>

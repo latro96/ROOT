@@ -4,7 +4,6 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-
 public abstract class Grilla {
 	protected int indice=0;
 	protected String tipo="";

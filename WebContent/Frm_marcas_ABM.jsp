@@ -170,7 +170,7 @@
 	        		$("#mar_codig",form).prop("disabled",true);
 	        		
 	        		$("#jqgridSearchForm",form).remove();
-	        		$(NidGrilla + "_pie_left",form).prepend(<%=fun.buscadorGrilla("nombre", "ptv_nombr")%>);
+	        		$(NidGrilla + "_pie_left",form).prepend(<%=(fun.buscadorGrilla("nombre", "ptv_nombr"))%>);
 	        		$("tr.jqgrow.ui-row-ltr.ui-widget-content",form).first().trigger("click");
 	        		$(NidGrilla,form).focus();
 	        	}, 
